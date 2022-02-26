@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets1/screens/animation_widgets/fade_widget_in_out_animation/fade_widget_in_out.dart';
-//import 'package:flutter_widgets1/screens/animation_widgets/animated_container/animated_container_app.dart';
-//import 'package:flutter_widgets1/screens/animation_widgets/animation_page_route_transition/page1.dart';
-//import 'package:flutter_widgets1/screens/animation_widgets/animation_using_physics_simulation/physics_card_drag_demo.dart';
+import 'package:flutter_widgets1/screens/homepage.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,6 +9,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
@@ -27,9 +25,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      //home: Page1(),
-      //home:PhysicsCardDragDemo(),
-      //home:AnimatedContainerApp(),
+      
       home:MyHomePage(),
       
     );
